@@ -1,0 +1,86 @@
+*{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* border-radius: 0 20px 20px 0; */
+    background-color: green;
+    margin-left: -4px;
+}
+.button_back{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* border-radius: 0 20px 20px 0; */
+    background-color: rgb(0, 0, 0);
+    margin-left: -20px;
+    float: left;
+}
+body{
+    background-color: green;
+}
+input{
+    height: 38px;
+    margin-left: 20px;
+    color: #333;
+    /* border-radius: 20px 0 0 20px; */
+    border: none;
+}
+.form{
+    background-color: #333;
+    display: block;
+    width: 300px;
+    padding: 30px;
+    /* border-radius: 20px; */
+    border: 2px solid #fff;
+    margin: auto;
+    margin-top: 10%;
+    
+}
+.single_input{
+    height: 38px;
+    margin-left: 20px;
+    color: #333;
+    /* border-radius: 20px; */
+    border: 2PX solid #111;
+    padding: 3px;
+}
+.single_input_button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* border-radius: 20px; */
+    background-color: green;
+    margin-left: -4px;
+}
+button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    /* border-radius: 20px; */
+    background-color: green;
+    margin-left: -4px;
+}
+.problem{
+    background-color: #333;
+    display: block;
+    width: 300px;
+    padding: 30px;
+    /* border-radius: 20px; */
+    border: 2px solid #fff;
+    margin: auto;
+    margin-top: 10%;
+}
+.problems{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -100px;
+    padding: -30px
+}

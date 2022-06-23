@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título -->
+    <title>Exercicio 05</title>
+
+    <!-- Icone da pagina -->
+    <link rel="shorcut icon" href="exercicio.png" type="image/x-icon"> 
+
+    <!-- JavaScript -->
+    <script src="script5.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!--Elabore um programa que, dados dois números naturais n1 e n2, representando um intervalo
+    fechado [n1, n2], exibe todos os números primos no intervalo.Sem exercícios de programação 
+    obrigatórios para essa semana :)-->
+
+    <div class="form">
+    <h1>NÚMEROS PRIMOS</h1>
+    <form name="form1" id="form1">
+        <p>Digite o intervalo de números</p>
+        <input class="single_input" type="number" id="v0" name="v0" value="" step="0.1" required placeholder="inicio">
+        <input class="single_input" type="number" id="v1" name="v1" value="" step="0.1" required placeholder="fim">
+        <input class="single_input_button" type="button" onclick="ex5();" value="CHAMA">
+
+        <!--<button name="chama" onclick="ex1();">CHAMA</button>-->
+        <p id="vem"></p>
+        <p id="demo"></p>
+    </form>
+    </div>
+    <a href="index.html"><button type="button" class="button_back" >Voltar</button></a>
+</body>
+</html>

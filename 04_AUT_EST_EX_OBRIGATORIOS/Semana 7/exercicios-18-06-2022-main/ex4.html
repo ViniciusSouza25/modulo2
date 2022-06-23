@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título -->
+    <title>Exercicio 04</title>
+
+    <!-- Icone da pagina -->
+    <link rel="shorcut icon" href="exercicio.png" type="image/x-icon"> 
+
+    <!-- JavaScript -->
+    <script src="script4.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!--A série de Fibonacci é formada pela sequência 1, 1, 2, 3, 5, 8, 13, 21, 34, ... 
+    Escreva um programa que apresente a série de Fibonacci até o n-ésimo termo
+    (n > 0).-->
+
+    <div class="form">
+    <h1>FIBONACCI</h1>
+    <form name="form1" id="form1">
+        <p>Digite a quantidade máxima de termos</p>
+        <input type="number" id="v0" name="v0" value="" step="0.1" required>
+        <input class="button" type="button" onclick="ex4();" value="CHAMA">
+
+        <!--<button name="chama" onclick="ex1();">CHAMA</button>-->
+        <p id="vem"></p>
+        <p id="demo"></p>
+    </form>
+    </div>
+    <a href="index.html"><button type="button" class="button_back" >Voltar</button></a>
+</body>
+</html>

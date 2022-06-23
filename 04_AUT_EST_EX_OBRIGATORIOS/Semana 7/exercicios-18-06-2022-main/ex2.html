@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título -->
+    <title>Exercicio 02</title>
+
+    <!-- Icone da pagina -->
+    <link rel="shorcut icon" href="exercicio.png" type="image/x-icon"> 
+
+    <!-- JavaScript -->
+    <script src="script2.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Crie uma página web na qual o usuário informe um número inteiro positivo e quando
+    o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), seja 
+    exibida a soma de seus dígitos.-->
+
+    <div class="form">
+    <h1>REALIZAR SOMA</h1>
+    <form name="form1" id="form1">
+        <p>Digite 2 valores para serem somados.</p>
+        <input class="single_input" type="number" id="v0" name="v0" value="" step="0.1" required placeholder="valor1">
+        <input class="single_input" type="number" id="v1" name="v1" value="" step="0.1" required placeholder="valor2">
+        <input class="single_input_button" type="button" onclick="ex2();" value="CHAMA">
+
+        <!--<button name="chama" onclick="ex1();">CHAMA</button>-->
+        <p id="vem"></p>
+        <p id="result"></p>
+    </form>
+    </div>
+    <a href="index.html"><button type="button" class="button_back" >Voltar</button></a>
+</body>
+</html>
