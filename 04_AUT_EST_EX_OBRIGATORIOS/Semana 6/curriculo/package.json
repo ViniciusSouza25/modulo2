@@ -1,0 +1,15 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "description": "curriculo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "singed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sqlite": "^4.1.1"
+  }
+}
